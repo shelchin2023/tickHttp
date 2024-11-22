@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "method": "GET",
+    "headers": null,
+    "body": null,
+    "interval_seconds": 5
+  },
+  {
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "method": "POST",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{\"title\": \"foo\", \"body\": \"bar\", \"userId\": 1}",
+    "interval_seconds": 10
+  }
+]
